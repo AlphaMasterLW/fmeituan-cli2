@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'meituan';
+  src:  url('../fonts/meituan.eot?m811d1');
+  src:  url('../fonts/meituan.eot?m811d1#iefix') format('embedded-opentype'),
+    url('../fonts/meituan.ttf?m811d1') format('truetype'),
+    url('../fonts/meituan.woff?m811d1') format('woff'),
+    url('../fonts/meituan.svg?m811d1#meituan') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'meituan' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow_lift:before {
+  content: "\e900";
+}
+.icon-thumb_up:before {
+  content: "\e901";
+}
+.icon-thumb_down:before {
+  content: "\e902";
+}
+.icon-shopping_cart:before {
+  content: "\e903";
+}
+.icon-remove_circle_outline:before {
+  content: "\e904";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e905";
+}
+.icon-favorite:before {
+  content: "\e906";
+}
+.icon-close:before {
+  content: "\e907";
+}
+.icon-check_circle:before {
+  content: "\e908";
+}
+.icon-add_circle:before {
+  content: "\e909";
+}
